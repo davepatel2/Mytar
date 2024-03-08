@@ -1,0 +1,13 @@
+dave patel(dpatel88)
+Ryan Banavitch (rbanavit)
+For Creation: we have tested the create header function and the create contents function and they 
+both work as they should. We both understand how the archive is created, however the problem we have 
+been running into is traversing the directory trees. For some reason it traverses the whole tree, 
+but when it gets to the text files and gets to our if statment with stat (stat(path, &sb)) it does 
+not return zero for somereason.
+For Listing: We almost have everything done for the listing. We have finished both normal and 
+verbose parts of the listing. The only part we need to deal with is the tests dealing with the prefixes when the
+regular name is too long. We understand how it works, we just did not have enough time to implement it
+For Extraction: We did not get to this part yet becasue we have been spending all the time 
+trying to perfect Creation and Listing. We do understand how extraction works and what we need to do, 
+we just need to implement it.
